@@ -1,0 +1,13 @@
+name = "TorchLean"
+version = "0.1.0"
+defaultTargets = ["torchlean"]
+
+[[lean_lib]]
+name = "TorchLean"
+
+[[lean_exe]]
+name = "torchlean"
+root = "Main"
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
